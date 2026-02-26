@@ -123,7 +123,8 @@ gams model/EMS_main.gms --month_name=Dec
 The model includes an automated GAMS-to-Python bridge for real-time post-processing:
 
 * Automated Scripting & Visualization: GAMS dynamically generates and executes Python scripts upon solver completion to launch Matplotlib plots of dispatch trajectories.
-*Data Storage & KPI Calculation: Optimization results are archived as GDX files for long-term storage, while the analytics wrapper calculates Cost-Savings, Comfort Enhancement, Self-Consumption, and Grid Trade.
+* Data Storage & KPI Calculation: Optimization results are archived as GDX files for long-term storage, while the analytics wrapper calculates Cost-Savings, Comfort Enhancement, Self-Consumption, and Grid Trade.
 ```
 Available month names must match the worksheet names in the input file.
+
 
